@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Encriptador de Texto</title>
+</head>
+
+<body>
+    <header>
+        <img class="logoAlura" src="/assets/logo alura.png" alt="Logo da Alura">   
+    </header>
+
+    <main class="conteudo">
+        <section class="secao_1">
+            <h1 class="bem-vindo">Seja bem-vindo ao Encriptador de Textos.</h1>
+            <textarea class="entrada_texto" cols="41" rows="4" type="text" placeholder="digite seu texto aqui..."></textarea>
+
+            <div>
+                <img class="advertencia.png" src="/assets/advertencia.png">
+                <small class="alerta">Apenas letras minúsculas e sem acentos!</small>
+            </div>
+
+            <div class="botoes_secao_1">
+                <button class="btn_encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn_desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="secao_2">
+            <textarea id="saida_texto" class="resultado" cols="20" rows="10"></textarea>
+            <img src="/assets/boneco.png" alt="Boneco" class="imagem-boneco" loading="lazy">
+            <h1>Nenhuma mensagem encontrada!</h1>
+            <p>Digite um texto que você deseja Criptografar ou Descriptografar.</p>
+            <button class="btn_copiar" onclick="btnCopiar()">Copiar</button>
+
+        </section>
+        
+    </main>
+
+</body>
+
+    <footer class="rodape">
+        Desenvolvido por Elton Shinaider - 2024
+    </footer>
+
+    <script src="script.js"></script>
+
+</html>

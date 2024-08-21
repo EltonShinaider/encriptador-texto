@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #E5E5E5;
+    --cor-secundaria: #0A3871;
+    --cor-terciaria: #D8DFE8;
+    --cor-alert: red;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+    
+}
+
+* {
+    background-color: var(--cor-primaria);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 170%;
+}
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 5%;
+}
+
+.bem-vindo {
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.entrada_texto {
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 24px;
+    margin-top: 40px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+}
+
+::placeholder {color: var(--cor-secundaria);}
+    .text-area-focus{
+        outline: none;
+    }
+
+.alerta {
+    color: var(--cor-alert);
+    font-family: var(--fonte-primaria);
+    font-size: small;
+    font-style: italic;
+}
+
+.botoes_secao_1 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn_encriptar {
+    background-color: var(--cor-secundaria);
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 24px;
+    color: var(--cor-primaria);
+    font-family: var(--fonte-secundaria);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn_desencriptar {
+    background-color: var(--cor-terciaria);
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 24px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.secao_2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 24px;
+    border-color: var(--cor-secundaria);
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.resultado {
+    background-color: white;
+    border: none;
+    border-radius: 24px;
+    border-color: var(--cor-secundaria);
+    color: var(--cor-secundaria);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 100%;
+    max-width: 550px;
+    height: 150px;
+    position: relative;
+    display: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.resultado:focus {
+    outline: none;
+    display: block;
+}
+
+.imagem-boneco {
+    background-color: white;
+    border-radius: 24px;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.imagem-oculta {
+    display: none;
+}
+
+.secao_2 h1 {
+    background-color: white;
+    font-size: 20px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    margin-bottom: 10px;
+}
+
+.secao_2 p {
+    background-color: white;
+    font-size: 15px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    margin-bottom: 15px;
+}
+
+.btn_copiar {
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 24px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    cursor: pointer;
+    height: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 250px;
+    background-color: var(--cor-primaria);
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn_copiar:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    bottom: 0.5rem; 
+    position: fixed; width: 100%; text-align: center;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 10px;
+}
+
+.oculto {
+    display: none;
+}
