@@ -48,5 +48,6 @@ $ encriptador-texto/
 │   └── style.css
 ├── index.html
 ├── script.js
+├── .gitignore
 └── README.MD
 ```
