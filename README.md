@@ -47,11 +47,13 @@ $ encriptador-texto/
 │   └── logo alura.png
 ├── styles/
 │   └── style.css
-├── index.html
-├── script.js
 ├── .gitignore
-└── README.MD
+├── index.html
+├── README.MD
+└── script.js
 ```
+
+[Preview](https://encriptador-texto-es.vercel.app/)
 
 ### Tela inicial:
 ![image](https://github.com/user-attachments/assets/57fef35a-79d5-4b43-988b-4a845da124d1)
@@ -67,5 +69,3 @@ $ encriptador-texto/
 
 ### Mensagem de alerta para uso de caracteres incorretos:
 ![image](https://github.com/user-attachments/assets/e896b1d8-c6bb-49b1-bc3e-7ea44a1c86bf)
-
-[Preview](https://encriptador-texto-es.vercel.app/)
